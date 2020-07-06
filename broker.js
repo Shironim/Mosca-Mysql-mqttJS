@@ -1,6 +1,6 @@
 // MQTT broker
 let mosca = require('mosca')
-let settings = {port: 1234}
+let settings = {port: 1883}
 let broker = new mosca.Server(settings)
 
 // MySQL 
